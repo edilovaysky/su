@@ -1,0 +1,17 @@
+::placeholder {
+    color: #657A9D;
+    text-align: center;
+    font-size: 15px;
+}
+
+.input-text {
+    color: #657A9D;
+    border: 1px solid #072659;
+    border-radius: 5px;
+    width: 120px;
+    height: 28px;
+    background-color: inherit;
+    margin: 15px;
+    padding-left: 10px;
+    outline: 0;
+  }

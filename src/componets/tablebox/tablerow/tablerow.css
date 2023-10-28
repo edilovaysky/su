@@ -1,0 +1,22 @@
+.box-table-row  {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.box-table-row p {
+    display: block;
+    width: 125px;
+    text-align: start;
+    margin-left: 7px;
+    word-break: break-word;
+}
+
+.box-table-row-icons-wrapper {
+    display: flex;
+    
+}
+
+.box-table-row-icons-wrapper img {
+    cursor: pointer;
+}

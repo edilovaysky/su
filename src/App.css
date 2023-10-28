@@ -1,0 +1,47 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+[class^="box-"] {
+  place-items: center;
+}
+
+.main-container {
+  display: flex;
+  min-height: 100hv;
+  width: 100%;
+  gap: 10px;
+}
+
+.side-box-wrapper {
+  display: flex;
+  width: 21.5%;
+  position: relative;
+}
+
+.side-box-line {
+  border-right: 1px solid #072659;
+  width: 1px;
+  height: 650px;
+  position: absolute;
+  top: 150px;
+  left: 98%;
+}
+
+.table-box-wrapper {
+  position: relative;
+  display: flex;
+  width: 75%;
+  min-height: 700px;
+  flex-direction: column;
+  
+}
+
+.box-table-pagination-wrapper {
+  position: absolute;
+  top: 100%;
+  left: 10px;
+}
